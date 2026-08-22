@@ -103,7 +103,7 @@ footer {
     width: 100%;
   }
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .herophoto {
     width: 100%;
