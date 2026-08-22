@@ -89,15 +89,27 @@ footer {
 
 @media (min-width: 1600px) and (max-width: 2000px) {
 }
-@media (min-width: 800px) and (max-width: 1599px) {
+@media (min-width: 1100px) and (max-width: 1599px) {
   .div-two {
     font-size: 1.3rem;
     /* margin-top: 50%; */
   }
 }
+
 @media (min-width: 320px) and (max-width: 799px) {
   .div-two {
     font-size: 1.2rem;
-    margin-top: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+  }
+  body {
+    overflow: hidden;
+  }
+  .herophoto {
+    width: 100%;
   }
 }
